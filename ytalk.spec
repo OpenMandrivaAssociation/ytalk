@@ -11,7 +11,7 @@ Version: 	%{version}
 Release: 	%{release}
 License:	BSD
 Group:		Networking/Chat
-BuildRequires:	XFree86-devel gpm-devel ncurses-devel
+BuildRequires:	X11-devel gpm-devel ncurses-devel
 Source0:	http://www.impul.se/ytalk/%{name}-%{version}.tar.bz2
 Source1:	ytalkrc
 URL:		http://www.impul.se/ytalk/
