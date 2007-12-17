@@ -15,7 +15,6 @@ BuildRequires:	X11-devel gpm-devel ncurses-devel
 Source0:	http://www.impul.se/ytalk/%{name}-%{version}.tar.bz2
 Source1:	ytalkrc
 URL:		http://www.impul.se/ytalk/
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 The YTalk program is essentially a chat program for multiple users. YTalk works
