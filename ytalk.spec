@@ -11,7 +11,7 @@ Version: 	%{version}
 Release: 	%{release}
 License:	BSD
 Group:		Networking/Chat
-BuildRequires:	X11-devel gpm-devel ncurses-devel
+BuildRequires:	ncurses-devel
 Source0:	http://www.impul.se/ytalk/%{name}-%{version}.tar.bz2
 Source1:	ytalkrc
 URL:		http://www.impul.se/ytalk/
@@ -48,12 +48,12 @@ Standart talkd daemon'u kullanýr.
 %setup -q
 
 %build
-%configure
+%configure2_5x
 %make 
 
 %install
 rm -rf $RPM_BUILD_ROOT
-%makeinstall
+%makeinstall_std
 
 %clean
 rm -rf $RPM_BUILD_ROOT
