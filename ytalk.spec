@@ -26,27 +26,6 @@ easy-to-use menu of commands.
 
 Install the ytalk package if you need a chat program for multiple users.
 
-%description -l	de
-ytalk ist eine Erweiterung des herkömmlichen Internet-'talk'-Protokolls, die
-mehr als zwei Benutzer pro Unterhaltung und die Umleitung von Programmausgaben
-an andere ermöglicht und ein einfaches Befehlsmenü enthält. Es verwendet
-denselben Talk-Dämon wie das Standardprogramm.
-
-%description -l fr
-ytalk est une extension du protocole standard Internet 'talk' qui accepte plus
-de deux utilisateurs par conversation, la redirection des affichages aux
-autres, aussi bien que menus de commandes simples à utiliser. Il utilise le
-même démon que le programme talk.
-
-%description -l tr
-ytalk, standart talk yazýlýmýnýn geliþmiþ bir sürümüdür. Ýkiden fazla
-kiþinin ayný anda konuþmalarýný ve program çýktýlarýnýn kullanýcýlara
-yönlendirilmelerini saðlar. Kolay kullanýlabilir bir komut menüsü içerir.
-Standart talkd daemon'u kullanýr.
-
-%prep
-%setup -q
-
 %build
 %configure2_5x
 %make 
