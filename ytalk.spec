@@ -26,6 +26,9 @@ easy-to-use menu of commands.
 
 Install the ytalk package if you need a chat program for multiple users.
 
+%prep
+%setup -q
+
 %build
 %configure2_5x
 %make 
