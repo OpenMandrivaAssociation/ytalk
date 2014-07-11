@@ -1,5 +1,5 @@
 %define	name	ytalk
-%define release	15
+%define release	16
 %define	version	3.3.0
 
 Summary:	A chat program
