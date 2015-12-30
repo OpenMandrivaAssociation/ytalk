@@ -1,3 +1,6 @@
+%define _disable_lto 1
+%define _disable_rebuild_configure 1
+
 %define	name	ytalk
 %define release	19
 %define	version	3.3.0
