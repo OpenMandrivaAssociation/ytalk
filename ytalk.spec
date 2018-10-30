@@ -2,13 +2,13 @@
 %define _disable_rebuild_configure 1
 
 %define	name	ytalk
-%define release	19
+%define release	20
 %define	version	3.3.0
 
 Summary:	A chat program
 Summary(de):	benutzt das Internet-Talk-Protokoll zum Erstellen von Multiuser-Chat-Sitzungen 
-Summary(fr):	Utilise le protocole talk pour cr�er des discussions multi-utilisateurs
-Summary(tr):	Talk protokolu kullanarak ikiden fazla ki�inin konu�mas�n� sa�lar
+Summary(fr):	Utilise le protocole talk pour créer des discussions multi-utilisateurs
+Summary(tr):	Talk protokolu kullanarak ikiden fazla kiþinin konuþmasýný saðlar
 Name:		%{name}
 Version: 	%{version}
 Release: 	%{release}
@@ -98,22 +98,22 @@ rm -rf $RPM_BUILD_ROOT
 * Sun Jan 01 2006 Mandriva Linux Team <http://www.mandrivaexpert.com/> 3.3.0-2mdk
 - Rebuild
 
-* Thu Jul 21 2005 Nicolas L�cureuil <neoclust@mandriva.org> 3.3.0-1mdk
+* Thu Jul 21 2005 Nicolas Lécureuil <neoclust@mandriva.org> 3.3.0-1mdk
 - New release 3.3.0
 
-* Mon Jan 10 2005 Per Øyvind Karlsen <peroyvind@linux-mandrake.com> 3.2.0-1mdk
+* Mon Jan 10 2005 Per Ã˜yvind Karlsen <peroyvind@linux-mandrake.com> 3.2.0-1mdk
 - 3.2.0
 
-* Fri Dec 24 2004 Per Øyvind Karlsen <peroyvind@linux-mandrake.com> 3.1.5-1mdk
+* Fri Dec 24 2004 Per Ã˜yvind Karlsen <peroyvind@linux-mandrake.com> 3.1.5-1mdk
 - 3.1.5
 - update url
 
-* Sun Jul 25 2004 Per ؀yvind Karlsen <peroyvind@linux-mandrake.com> 3.1.2-1mdk
+* Sun Jul 25 2004 Per Ø€yvind Karlsen <peroyvind@linux-mandrake.com> 3.1.2-1mdk
 - 3.1.2
 - update url
 - update %%docs
 
-* Sat Jul 12 2003 Per Øyvind Karlsen <peroyvind@sintrax.net> 3.1.1-8mdk
+* Sat Jul 12 2003 Per Ã˜yvind Karlsen <peroyvind@sintrax.net> 3.1.1-8mdk
 - rebuild
 - cosmetics
 
