@@ -2,7 +2,7 @@
 %define _disable_rebuild_configure 1
 
 %define	name	ytalk
-%define release	20
+%define release	21
 %define	version	3.3.0
 
 Summary:	A chat program
