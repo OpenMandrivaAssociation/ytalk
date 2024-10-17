@@ -17,7 +17,7 @@ Group:		Networking/Chat
 BuildRequires:	ncurses-devel
 Source0:	http://www.impul.se/ytalk/%{name}-%{version}.tar.bz2
 Source1:	ytalkrc
-URL:		http://www.impul.se/ytalk/
+URL:		https://www.impul.se/ytalk/
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
