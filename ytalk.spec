@@ -14,6 +14,11 @@ Version: 	%{version}
 Release: 	%{release}
 License:	BSD
 Group:		Networking/Chat
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	ncurses-devel
 Source0:	http://www.impul.se/ytalk/%{name}-%{version}.tar.bz2
 Source1:	ytalkrc
